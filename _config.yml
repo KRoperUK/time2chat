@@ -1,10 +1,10 @@
 # Setup
 title: t2c
 tagline: "the place to talk about what's on your mind"
-url: https://time2.chat
+url: https://time2.chat/
 paginate: 1
 baseurl: ""
-permalink: ""
+permalink: "/:year/:month/:day/:title/"
 
 # Gems
 plugins:
@@ -34,7 +34,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Kieran Roper
-  url: https://kroper.live
+  url: https://kroper.live/
   email: "kar020@student.bham.ac.uk"
 
 # Custom vars

@@ -6,4 +6,4 @@ gem "jekyll-gist"
 gem "jekyll-paginate"
 gem "jekyll-seo-tag"
 gem "webrick"
-gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-compose', group: [:jekyll_plugins]  
