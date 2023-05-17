@@ -10,6 +10,14 @@
   --gray-800: #343a40;
   --gray-900: #212529;
 
+  // https://flatuicolors.com/palette/defo
+  --flat-wet-asphalt: #34495e;
+  --flat-midnight-blue: #2c3e50;
+  --flat-concrete: #95a5a6;
+  --flat-clouds: #ecf0f1;
+  --flat-silver: #bdc3c7;
+  --flat-asbestos: #7f8c8d;
+
   --red: #fa5252;
   --pink: #e64980;
   --grape: #be4bdb;
@@ -30,7 +38,8 @@
   --body-font-size: 16px;
   --body-line-height: 1.5;
   --body-color: var(--gray-700);
-  --body-bg: #fff;
+  // --body-bg: #fff;
+  --body-bg: var(--flat-clouds);
 
   --link-color: var(--blue);
   --link-hover-color: #1c7ed6;
@@ -52,7 +61,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --body-color: var(--gray-300);
-    --body-bg: var(--gray-800);
+    // --body-bg: var(--gray-800);
+    --body-bg: var(--flat-midnight-blue);
 
     --heading-color: #fff;
 
