@@ -4,7 +4,7 @@ title: Privacy Policy
 ---
 
 <div class="warning" style="text-align: center; margin-top: 1em;">
-<b>This privacy policy is still being produced.</b>
+  <b>This privacy policy is still being produced.</b>
 </div>
 
 <hr>
