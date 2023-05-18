@@ -10,11 +10,16 @@
   margin-right: auto;
 }
 
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
 footer {
   bottom: 0;
-  width: 100%;
+  width: 75%;
+  height: 2.5rem;
   max-width: 45rem;
-  position: absolute;
+  position: relative;
   margin-top: var(--spacer-3);
   margin-bottom: var(--spacer-3);
 }
