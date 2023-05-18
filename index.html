@@ -11,7 +11,7 @@ title: Home
 <p><strong>Expected beta release: July 2023</strong></p>
 </div>
 
-<div style="height: 25vh;">
+<div style="height: 22vh;">
 </div>
 <hr>
 
@@ -21,15 +21,13 @@ title: Home
 <div class="posts">
   {% for post in site.posts %}
   <!-- <article class="post"> -->
-    <li>
     <h3 class="post-title">
       <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
+        > {{ post.title }}
       </a>
     </h3>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-  </li>
+    <!-- <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time> -->
 
     <!-- {{ post.content }} -->
   <!-- </article> -->
